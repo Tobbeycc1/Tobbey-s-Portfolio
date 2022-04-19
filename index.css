@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  overflow-x: hidden;
+  --ColorBlack: rgb(5, 34, 77);
+}
+.background {
+  background: white;
+  background: url(./images/yello-wave\ background.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: linear-gradient(
+    317deg,
+    rgba(193, 123, 20, 0.06766456582633051) 0%,
+    rgba(226, 146, 26, 0.09007352941176472) 100%
+  ); */
+  height: 100vh;
+}
+.logo {
+  width: 7%;
+  padding: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.to-top-container {
+  text-align: right;
+  position: sticky;
+  margin: 50px 20px;
+  top: 85vh;
+  z-index: 100;
+}
+.to-top {
+  text-decoration: none;
+  color: white;
+}
+#to-top-arrow {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  background: #fec240;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 1000;
+  font-size: 30px;
+}
+/* .navBar {
+  border-bottom: 1px solid var(--ColorBlack);
+} */
+.nav-sub {
+  width: 85%;
+  text-align: right;
+  display: inline-block;
+}
+.navElements {
+  text-decoration: none;
+  color: var(--ColorBlack);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+.navElements:hover {
+  font-weight: bold;
+}
+#typing,
+#type {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 100px 50px 0px 50px;
+  cursor: none;
+}
+#type {
+  width: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  color: var(--ColorBlack);
+  font-size: 70px;
+  margin: 0px 50px;
+  color: #fec240;
+}
+#typing-effect-container {
+  height: fit-content;
+  width: 55%;
+  float: left;
+}
+.background-magic-images {
+  padding: 50px 20px 20px 20px;
+  display: inline-block;
+  height: 80vh;
+  clear: both;
+}
+.ui-ux,
+.graphics-designer,
+.front-end {
+  width: 400px;
+  text-align: center;
+  display: inline;
+}
+#gD,
+#fE {
+  display: none;
+}
+.what-i-am {
+  color: var(--ColorBlack);
+  margin: 20px;
+  color: var(--ColorBlack);
+  font-weight: 1000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.next {
+  vertical-align: middle;
+  cursor: pointer;
+  color: white;
+  background: #fec240;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 10px;
+}
+#gdnext {
+  background: #238cf2;
+}
+#webnext {
+  background: #e13439;
+}
+.filter {
+  margin-top: 40px;
+  text-align: center;
+}
+.label-1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  color: #fec240;
+}
+option {
+  width: 400px;
+  color: #fec240;
+}
+.desktop-ui,
+.mobile-ui {
+  display: block;
+  width: 100%;
+  height: 768px;
+}
+.desktop-ui-square,
+#desktop-ui-1,
+#desktop-ui-2 {
+  height: fit-content;
+  margin-top: 40px;
+  display: block;
+  width: 100%;
+}
+.material-icons {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.filter-list-container,
+.filter-list-container-gd {
+  width: 100%;
+  text-align: center;
+}
+.filter-list,
+.filter-list-gd {
+  width: 300px;
+  text-align: center;
+  margin: 10px auto;
+  display: none;
+}
+.list,
+.list-gd {
+  margin: 10px;
+  cursor: pointer;
+}
+.list:hover {
+  font-weight: bold;
+  color: #fec240;
+}
+.list-gd:hover {
+  font-weight: bold;
+  color: #238cf2;
+}
+.i-am-a-ui-ux-designer {
+  text-align: center;
+  display: block;
+}
+
+#graphics-design-selected {
+  text-align: center;
+  display: none;
+}
+.SB,
+.PF,
+.CP,
+.LO,
+.NFT,
+.PRD,
+.CA {
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.71);
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  margin: 20px;
+  vertical-align: middle;
+}
+.hamburger-container {
+  display: none;
+}
+.logo-2 {
+  display: none;
+}
+.contact {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+  margin: 0px auto;
+  width: 80%;
+  margin-bottom: 40px;
+}
+.contact-us-text {
+  font-weight: 1000;
+  font-size: 35px;
+}
+.p-numbers {
+  color: #fec240;
+  line-height: 50px;
+  font-weight: 1000;
+}
+#p-numbers {
+  line-height: 20px;
+}
+.phone-number {
+  font-weight: 1000;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 1365px) {
+  .desktop-ui,
+  .mobile-ui {
+    width: 100%;
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 997px) {
+  .logo-2 {
+    width: 15%;
+    display: inline;
+    margin-left: 45%;
+    vertical-align: middle;
+    padding: 5px;
+    height: 50px;
+  }
+  .hamburger-container {
+    width: 100%;
+    background: white;
+    display: flex;
+    z-index: 150;
+    height: fit-content;
+    position: fixed;
+  }
+  .desktop-ui,
+  .mobile-ui {
+    width: 100%;
+    height: fit-content;
+    display: block;
+  }
+  .collapsible {
+    padding: 5px 10px 5px 30px;
+    display: flex;
+    z-index: 102;
+    color: var(--abbyscolor);
+    font-size: 30px;
+    vertical-align: top;
+    width: 30%;
+    background-color: white;
+  }
+  #typing,
+  #type {
+    width: 100%;
+    font-size: 20px;
+  }
+  #type {
+    font-size: 30px;
+  }
+  .ui-ux,
+  .graphics-designer,
+  .front-end {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .desktop-ui,
+  .mobile-ui {
+    width: 100%;
+    height: fit-content;
+  }
+
+  #typing-effect-container {
+    float: none;
+    clear: both;
+    display: block;
+  }
+  .nav-sub {
+    text-align: center;
+    display: block;
+    background: white;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 101;
+    display: none;
+    padding-top: 30px;
+    box-shadow: 0px 12px 12px -9px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+  }
+  .navElements {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .SB,
+  .PF,
+  .CP,
+  .LO,
+  .NFT,
+  .PRD,
+  .CA {
+    width: 90%;
+  }
+  .filter {
+    margin-top: 20px;
+  }
+  #ui-ux-selected,
+  #graphics-design-selected {
+    margin-top: -60px;
+  }
+  .background {
+    height: 1200px;
+  }
+  .contact {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .background {
+    height: 100vh;
+  }
+  .what-i-am {
+    font-size: 10px;
+  }
+
+  .desktop-ui,
+  .mobile-ui,
+  #desktop-ui-1,
+  #desktop-ui-2 {
+    width: 100%;
+    height: 30.3vh;
+  }
+  .desktop-ui-square,
+  #desktop-ui-1,
+  #desktop-ui-2 {
+    height: 40.9vh;
+  }
+}

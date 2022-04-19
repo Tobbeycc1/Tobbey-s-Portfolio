@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>TOBBEY&#39S PORTFOLIO </title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body onload="typingEfect()" >
+
+    <div class="hamburger-container">
+      <h3 class="collapsible" id="open" java onclick="opennav()">&#9776</h3>
+      <img src="./images/favicon.png "  alt="Tobbey's Logo" class="logo-2">
+         </div> 
+  
+<div class="background" id="background">
+      <!-- Nav-bar -->
+<div class="navBar">
+  <img src="./images/favicon.png "  alt="Tobbey's Logo" class="logo">
+  <div id="nav-sub" class="nav-sub animate__animated animate__rubberBand animate__delay-0.2s " >
+    <a href="#" class="navElements">Home</a>
+  <a href="./images/Chime Tochukwu Celestine 2.pdf" download="Chime Tobbey's CV" class="navElements" >Download CV</a>
+  <a href="#contact" class="navElements">Contact</a> 
+  </div>
+  </div>
+  <!-- Nav-bar ends -->
+ 
+  
+  <!-- Container -->
+  <!-- Typing Effect -->
+  <div id="typing-effect-container">
+    <p id="typing">Hello! my name is </p>
+    <p id="type"></p>
+  </div>
+  <div class="background-magic-images">
+    <div class="ui-ux" id="uiUx">
+      <img src="./images/uiux.png" alt="" class="animate__animated animate__bounceInRight ui-ux"  >
+      <p class="animate__animated animate__flash  what-i-am">I AM A UI/UX DESIGNER <span id="uiuxnext" onclick="bringGD()" class="next">next</span> </p> 
+    </div>
+    <div class="graphics-designer" id="gD">
+      <img src="./images/graphics designer.png" alt="" class="animate__animated animate__bounceInRight graphics-designer"  >
+      <p class="animate__animated animate__flash  what-i-am">I AM A GRAPHICS DESIGNER <span id="gdnext" onclick="bringFE()" class="next">next</span> </p> 
+    </div>
+    <div class="front-end" id="fE">
+      <img src="./images/web developer.png" alt="" class="animate__animated animate__bounceInRight front-end"  >
+      <p class="animate__animated animate__flash what-i-am">I AM A WEB DEVELOPER <span id="webnext" onclick="bringUI()" class="next">next</span> </p> 
+    </div>
+    
+  </div>
+</div>
+
+<div class="to-top-container">
+  <a href="#" class="to-top"><i class="material-icons " id="to-top-arrow">arrow_upward</i></a> 
+</div>
+<!-- Portfolio -->
+  <!-- Ui/Ux Designs -->
+<div id="ui-ux-selected">
+  <!-- Ui/Ux Filter -->
+  <h3 class="filter" id="filter">Filter by <i class="material-icons" onclick="showFilter()">arrow_drop_down_circle</i>
+  </h3>
+  <div class="filter-list-container" >
+    <div class="filter-list" id="filter-list">
+      <p class="list" onclick="showAll()"><i>--none--</i></p>
+      <p class="list" onclick="showDesktop()">Desktop Ui</p>
+      <p class="list" onclick="showMobile()">Mobile Ui</p>
+    </div>
+  </div>
+  <!-- Ui/Ux Filter Ends-->
+  <!-- I am a UI/Ux Designer -->
+  <div class="i-am-a-ui-ux-designer">
+  <div class="filter">
+    
+  </div>
+  <img src="./images/crypto UI.png" alt="" id="desktop-ui-3"  class="desktop-ui-square" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/Anima Mock-up-1.png" alt="" id="desktop-ui-1"  class="desktop-ui" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/Anima Mock-up-2.png" alt="" id="desktop-ui-2"  class="desktop-ui" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/abby's place ui content.png" alt="" id="mobile-ui-1"  class="mobile-ui" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/Zari Match ui content.png" alt="" id="mobile-ui-2" class="desktop-ui" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/Texz ui content.png" alt="" id="desktop-ui-3"  class="desktop-ui" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+  </div>
+  <!-- I am a UI/Ux Designer Ends-->
+</div>
+ <!-- Ui/Ux Designs Ends -->
+
+
+
+
+
+   <!-- Graphics Designs -->
+<div id="graphics-design-selected">
+  <!-- Graphics Filter -->
+  <h3 class="filter" id="filter">Filter by <i class="material-icons" onclick="showFilterGd()">arrow_drop_down_circle</i>
+  </h3>
+  <div class="filter-list-container-gd" >
+    <div class="filter-list-gd" id="filter-list-gd">
+      <p class="list-gd" onclick="showAllGD()"><i>--none--</i></p>
+      <p class="list-gd" onclick="showLogo()">Logo</p>
+      <p class="list-gd" onclick="showSmd()">Social Media Banner</p>
+      <p class="list-gd" onclick="showCopies()">Copies</p>
+      <p class="list-gd" onclick="showPD()">Party Design</p>
+      <p class="list-gd" onclick="showNFT()">NFT</p>
+      <p class="list-gd" onclick="showPRD()">Products Design</p>
+      <p class="list-gd" onclick="showCA()">Cover Art</p>
+    </div>
+  </div>
+  <!-- Graphics Filter Ends-->
+  
+  
+  <!-- I am a Graphics Designer -->
+  <div class="i-am-a-ui-ux-designer">
+  <div class="filter">
+    
+  </div>
+    <img src="./images/2nd slide (1).png" alt="" id="SB-1"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/ajebo hustler blue-nun GOLD.png" alt="" id="PF-1"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/Beyond thescope (1).png" alt="" id="SB-2"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG_7960.JPG" alt="" id="SB-3"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" > 
+    <img src="./images/Test checkmail (1).png" alt="" id="SB-4"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG_7963 (1).jpg" alt="" id="SB-5"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/d084841e-639b-471d-a89f-031ede28 (1).jpg" alt="" id="PF-2"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/christmas2 (1) (1).png" alt="" id="SB-6"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/elajacs2 (1).png" alt="" id="CP-1"  class="CP" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/Dorime (1).png" alt="" id="CP-2"  class="CP" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/C5F25340-E54B-4033-BB6A-3B83153E54B9.jpg" alt="" id="LO-1"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/859E545E-29D8-4AD5-98D3-C6BEFDBC844C.jpg" alt="" id="LO-2"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/4th post (1).png" alt="" id="CP-3"  class="CP" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/ICT Baranding (1).png" alt="" id="CP-4"  class="CP" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/3one2 (1).png" alt="" id="SB-7"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/F14EF4F9-30EE-412D-910E-013CB94756EF.jpg" alt="" id="CA-1"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/F35EE082-8BF3-47D3-83B3-E5D72AFC.jpg" alt="" id="CA-2"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/abisola (1).jpg" alt="" id="LO-3"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/new obi cubana1 (1).png" alt="" id="SB-8"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/HAPPY BIRTHDAY LG2 (1).png" alt="" id="SB-9"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/OMAH LAY lARRY gAGA (1).png" alt="" id="PF-3"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/new billboard modern day problem.png" alt="" id="SB-10"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/first  bag0 (1).png" alt="" id="PRD-1"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/new billboard4 (1) (1).png" alt="" id="SB-11"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/nft is game2 (1).png" alt="" id="NFT-1"  class="NFT" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/62145EE3-772A-45D8-9765-73097FC2A090.jpg" alt="" id="LO-4"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/ac3aefa8-dc61-4f2d-bb6c-eb2c02b2 (1).jpg" alt="" id="PF-4"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/2C002A7B-651D-46E5-BDD9-D15E0D76.jpg" alt="" id="CA-3"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/69CF81D2-24AC-43A1-9EFA-BD0E572C.jpg" alt="" id="CA-4"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/nft3 (1).png" alt="" id="NFT-2"  class="NFT" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/69c1e648-f614-4ec4-a8be-7fa3e716.jpg" alt="" id="SB-12"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/KITCHEN FLYR (2).png" alt="" id="SB-13"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/q2 (1) (1).png" alt="" id="SB-14"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/d9c34fbc-ee0d-40ce-9faf-084383e6.jpg" alt="" id="PRD-2"  class="PRD" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/fem dam stores B (1) (1).png" alt="" id="LO-5"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/F96004CA-A737-4DEA-B87E-34368506.jpg" alt="" id="CA-5"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/amava first post abstract 2 (1).png" alt="" id="LO-6"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/online workshop (1).png" alt="" id="SB-15"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/amq (1).png" alt="" id="SB-16"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/BAD OR GOOF (1).png" alt="" id="CA-6"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/learn BI (1).png" alt="" id="SB-17"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/3rd post (1).png" alt="" id="CP-5"  class="CP" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8450 (1).jpg" alt="" id="LO-7"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8446 (1).png" alt="" id="LO-8"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8448 (1).jpg" alt="" id="LO-9"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8445 (1).png" alt="" id="CA-7"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/chasing og (1).png" alt="" id="SB-18"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/learn web 2 (1).png" alt="" id="SB-19"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/ab (1).png" alt="" id="NFT-3"  class="NFT" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/rocks (1).png" alt="" id="NFT-4"  class="NFT" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/cant2 (1).png" alt="" id="NFT-5"  class="NFT" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/rent (2).png" alt="" id="NFT-6"  class="NFT" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/merry christmas (1).png" alt="" id="SB-20"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8453 (1).jpg" alt="" id="PF-5"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/AV (1).png" alt="" id="PF-6"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/blue nun screen dark grey (1).png" alt="" id="SB-21"  class="SB" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8449 (1).jpg" alt="" id="LO-10"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/80f1261f-9a90-42e7-857d-635d2fe8 (1).jpg" alt="" id="LO-11"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/night and day (1).png" alt="" id="CA-8"  class="CA" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/ay star (1).png" alt="" id="PF-7"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8451 (1).png" alt="" id="LO-12"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/d145b3d0-68bd-4203-853c-72c8dffe.jpg" alt="" id="PF-8"  class="PF" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+    <img src="./images/IMG-8447 (1).jpg" alt="" id="LO-13"  class="LO" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000" >
+   
+
+
+  </div>
+  <!-- I am a Graphics Designer Ends-->
+</div>
+ <!-- Graphics Designs Ends -->
+
+
+<!-- Contact -->
+<div class="contact" id="contact"> 
+  <h1 class="contact-us-text">Contacts</h1>
+  <p class="p-numbers" id="p-numbers">You can reach me through any of these</p>
+  <p class="p-numbers" id="p-numbers-1">Phone:</p>
+  <a href="tel:+2349058387301" class="phone-number">+234-905-838-7301</a> <br>
+  <a href="tel:+2349058387301" class="phone-number">+234-805-838-7301</a>
+  <p class="p-numbers" id="p-numbers-2">E-mail:</p>
+  <a href="mailto:jayjaytobbey@gmail.com" class="phone-number">jayjaytobbey@gmail.com</a>
+</div>
+</div>
+<!-- Contact Ends- -->
+
+
+
+  </body>
+  <!-- Animate on Scroll -->
+  <script>
+    AOS.init();
+  </script>
+
+
+<!-- Typing Effect -->
+<script>
+  var i = 0
+  var speed = 400;
+  var txt =  "TOBBEY CELESTINE"
+ 
+
+  function typingEfect() {
+    if (i<txt.length) {
+      document.getElementById("type").innerHTML += txt.charAt(i); i++;      
+    }
+
+   else{
+    document.getElementById("type").innerHTML = " "
+     i=0
+   }
+  
+    setTimeout (typingEfect, speed);
+  }
+ 
+</script>
+
+<!-- Background Effect -->
+<script>
+function bringGD() {
+  document.getElementById("uiUx").style.display= "none"
+  document.getElementById("gD").style.display= "inline"
+  document.getElementById("type").style.color= "#238CF2"
+  document.getElementById("background").style.backgroundImage= "url('./images/blue-wave\ background.png')"
+  document.getElementById("graphics-design-selected").style.display= "block"
+  document.getElementById("ui-ux-selected").style.display= "none"
+  document.getElementById("to-top-arrow").style.background= "#238CF2"
+  document.getElementById("p-numbers").style.color= "#238CF2"
+  document.getElementById("p-numbers-1").style.color= "#238CF2"
+  document.getElementById("p-numbers-2").style.color= "#238CF2"
+  
+}
+function bringFE() {
+  document.getElementById("uiUx").style.display= "none"
+  document.getElementById("gD").style.display= "none"
+  document.getElementById("fE").style.display= "inline"
+  document.getElementById("type").style.color= "#E13439"
+  document.getElementById("background").style.backgroundImage= "url('./images/red-wave\ background.png')"
+  document.getElementById("graphics-design-selected").style.display= "none"
+  document.getElementById("ui-ux-selected").style.display= "none"
+  document.getElementById("to-top-arrow").style.background= "#E13439"
+  document.getElementById("p-numbers").style.color= "#E13439"
+  document.getElementById("p-numbers-1").style.color= "#E13439"
+  document.getElementById("p-numbers-2").style.color= "#E13439"
+
+}
+function bringUI() {
+  document.getElementById("uiUx").style.display= "inline"
+  document.getElementById("gD").style.display= "none"
+  document.getElementById("fE").style.display= "none"
+  document.getElementById("type").style.color= "#fec240"  
+  document.getElementById("background").style.backgroundImage= "url('./images/yello-wave\ background.png')"
+  document.getElementById("graphics-design-selected").style.display= "none"
+  document.getElementById("ui-ux-selected").style.display= "block"
+  document.getElementById("to-top-arrow").style.background= "#fec240"
+  document.getElementById("p-numbers").style.color= "#fec240"
+  document.getElementById("p-numbers-1").style.color= "#fec240"
+  document.getElementById("p-numbers-2").style.color= "#fec240"
+}
+
+
+</script>
+
+<!-- Hamburger -->
+<script>
+  text= " "
+  function opennav() {
+    for (let i = 0; i < 1; i++) {
+text+= i
+}
+if (text.length % 2 == 0) {
+  document.getElementById("nav-sub").style.display = "block"
+  }
+  else{
+    document.getElementById("nav-sub").style.display = "none"
+  }
+  }
+
+</script>
+
+<!-- Filter Ui -->
+<script>
+  text= " "
+  function showFilter() {
+    for (let i = 0; i < 1; i++) {
+text+= i
+}
+console.log(text.length);
+  if (text.length % 2 == 0) {
+    document.getElementById("filter-list").style.display= "block"
+
+  }
+  else{
+    document.getElementById("filter-list").style.display= "none"
+  }
+  }
+
+</script>
+
+<!-- Show Desktop/Mobile Ui/Ux-->
+<script>
+    function showAll() {
+    document.getElementById("desktop-ui-3").style.display= "block"
+    document.getElementById("desktop-ui-1").style.display= "block"
+    document.getElementById("desktop-ui-2").style.display= "block"
+    document.getElementById("desktop-ui-3").style.display= "block"
+    document.getElementById("mobile-ui-1").style.display= "block"
+    document.getElementById("mobile-ui-2").style.display= "block"
+  }
+  function showDesktop() {
+    document.getElementById("desktop-ui-3").style.display= "block"
+    document.getElementById("desktop-ui-1").style.display= "block"
+    document.getElementById("desktop-ui-2").style.display= "block"
+    document.getElementById("desktop-ui-3").style.display= "block"
+    document.getElementById("mobile-ui-1").style.display= "none"
+    document.getElementById("mobile-ui-2").style.display= "none"
+  }
+  function showMobile() {
+    document.getElementById("desktop-ui-3").style.display= "none"
+    document.getElementById("desktop-ui-1").style.display= "none"
+    document.getElementById("desktop-ui-2").style.display= "none"
+    document.getElementById("desktop-ui-3").style.display= "none"
+    document.getElementById("mobile-ui-1").style.display= "block"
+    document.getElementById("mobile-ui-2").style.display= "block"
+  }
+</script>
+
+<!-- Filter GD -->
+<script>
+  text= " "
+  function showFilterGd() {
+    for (let i = 0; i < 1; i++) {
+text+= i
+}
+console.log(text.length);
+  if (text.length % 2 == 0) {
+    document.getElementById("filter-list-gd").style.display= "block"
+
+  }
+  else{
+    document.getElementById("filter-list-gd").style.display= "none"
+  }
+  }
+
+</script>
+
+
+
+
+
+
+</html>
